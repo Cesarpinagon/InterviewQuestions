@@ -14,6 +14,7 @@
 | 6 | [Explain the difference between "margin" and "padding" in CSS and how they impact web page layout](#6)|
 | 7 | [What is the CSS box-sizing property, and how does it affect the layout of elements?](#7)|
 | 8 | [Explain the difference between inline and block elements in HTML and give examples of each:](#8)|
+| 9 | [What are the different types of CSS selectors?](#9)|
 
 ## 1. Center an element
 
@@ -126,3 +127,15 @@ Example usage of `box-sizing`:
 ## 8. Explain the difference between inline and block elements in HTML and give examples of each:<a id="8"></a>
    - **Block Elements:** These elements typically start on a new line and occupy the full width available, pushing subsequent elements onto new lines. Examples include `<div>`, `<p>`, `<h1>` to `<h6>`.
    - **Inline Elements:** These elements do not start on a new line and only occupy as much width as necessary. They allow other elements to sit beside them. Examples include `<span>`, `<a>`, `<strong>`, `<em>`.
+
+## 9. What are the different types of CSS selectors?<a id="9"></a>
+
+**Answer:** CSS selectors are used to select HTML elements and apply styles to them. There are several different types of CSS selectors, each with its own purpose and usage. Here are some of the most common types of CSS selectors:
+* **Element selectors:** Select elements by their tag name, such as `p`, `div`, or `h1`.
+* **Class selectors:** Select elements with a specific class attribute, such as `.button` or `.error`.
+* **ID selectors:** Select an element with a unique ID attribute, such as `#main-content` or `#header`.
+* **Descendant selectors:** Select elements that are descendants of other elements, such as `div p` or `ul li`.
+* **Child selectors:** Select elements that are direct children of other elements, such as `div > p` or `ul > li`.
+* **Adjacent sibling selectors:** Select elements that are next to other elements, such as `p + p` or `div + ul`.
+* **Attribute selectors:** Select elements based on the value of an attribute, such as `a[href="index.html"]` or `img[alt="My Image"]`.
+* **Pseudo-classes:** Select elements based on their state or behavior, such as `:hover` for elements that are being hovered over, or `:active` for elements that are being clicked on.
